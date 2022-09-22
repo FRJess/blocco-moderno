@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 section{
   position: relative;
   width: calc(100% - 20px);
@@ -29,4 +33,15 @@ section .overlay{
 
 section:hover .overlay{
   background-color: rgba(0, 0, 0, 0);
+}
+
+section h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 5px black;
 }
