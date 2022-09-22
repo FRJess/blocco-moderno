@@ -25,3 +25,7 @@ section .overlay{
   left: 0;
   background-color: rgba(0, 0, 0, .4);
 }
+
+section:hover .overlay{
+  background-color: rgba(0, 0, 0, 0);
+}
